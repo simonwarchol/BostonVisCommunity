@@ -1,0 +1,122 @@
+.events-section {
+  padding: 0;
+}
+
+
+
+.events__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* Make each event take a full row */
+  gap: 1em;
+}
+
+.event {
+  padding: 1em;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.event:hover {
+  transform: translateY(-5px);
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.subtitle {
+  font-size: 3em !important;
+  margin: 0.5em 0;
+}
+
+
+
+
+.event-title,
+.event-glyph,
+.event-location,
+.event-date {
+  display: flex;
+  align-items: center;
+  /* Vertically align items */
+}
+
+.event-header h3 {
+  /* margin: 0; */
+  font-size: 1.2em;
+}
+
+
+.event.past {
+  /* striped background */
+  background: repeating-linear-gradient(45deg,
+      #FEF9E3,
+      #FEF9E3 10px,
+      #f3edd7 10px,
+      #f3edd7 20px);
+}
+
+
+.event-details {
+  display: flex;
+  gap: 1em;
+  font-size: 0.9em;
+  color: #555;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.event-description {
+  text-align: left;
+  margin-top: 0.5em;
+}
+
+.event a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.event a:hover {
+  text-decoration: underline;
+}
+
+.event-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.glyph {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.glyph.star::before {
+  content: '★';
+  /* Example glyph for star */
+}
+
+.glyph.glass::before {
+  content: '🍷';
+  /* Example glyph for glass */
+}
+
+.glyph.bullhorn::before {
+  content: '📢';
+  /* Example glyph for bullhorn */
+}
+
+.glyph.book::before {
+  content: '📚';
+  /* Example glyph for book */
+}
+
+.glyph.stats::before {
+  content: '📊';
+  /* Example glyph for stats */
+}

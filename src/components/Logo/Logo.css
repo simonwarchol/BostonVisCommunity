@@ -1,0 +1,11 @@
+.logo {
+  background-image: url('/BosVis.svg');
+  width: 80%;
+  height: 80%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
