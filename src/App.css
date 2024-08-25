@@ -35,14 +35,6 @@
 
 
 
-
-
-
-main {
-  margin: 4em 2em 0;
-}
-
-
 .section {
   margin-top: 5em;
 
@@ -195,3 +187,18 @@ main {
   color: #fef3c7;
   text-shadow: -2px 0 #111827, 0 -2px #111827, 2px 0 #111827, 0 2px #111827, 2px 2px #111827, -2px -2px #111827, -2px 2px #111827, 2px -2px #111827, 6px 6px #db2777;
 }
+
+
+
+
+
+
+main {
+  margin: 4em 2em 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px 0px;
+
+}
+

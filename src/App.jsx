@@ -25,7 +25,7 @@ const App = () => {
       </main>
       <Background />
       <ScrollToTop />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
