@@ -8,7 +8,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Boston VIS Community',
-  description: 'Boston VIS is an emerging alliance of university- and industry-based Visualization researchers. The main focus of the Labs is to provide students doing VIS research with a strong peer community and with access to the broad range of VIS expertise available throughout Boston area. Our activities will likely involve social and research events, creating a shared calendar of VIS-related events, and curriculum coordination.'
+  description: 'Boston VIS is an emerging alliance of university- and industry-based Visualization researchers. The main focus of Boston VIS is to provide VIS researchers with a strong peer community and with access to the broad range of VIS expertise available throughout Boston area. Our activities will likely involve social and research events, creating a shared calendar of VIS-related events, and curriculum coordination.'
 }
 
 const events = [
@@ -26,7 +26,7 @@ const events = [
     title: "Boston VIS PhD Summer School",
     type: "Archive",
     glyph: "star",
-    date: "13-Aug-2024 & 14-Aug-2024",
+    date: "13-Aug-2024 @ 9:00pm",
     location: "Northeastern, Shillman Hall, Room 320. 115 Forsyth St. Boston, MA 02115",
     description: "Join us for the 2024 Boston VIS Summer School on August 13th and 14th at Shillman Hall., networking opportunities, and student-led tutorials. For communications, use Slack. Contact <a href='mailto:dwootton@mit.edu'>Dylan Wootton</a> for questions. Find the schedule on our <a href='https://vizphdsummerschool.github.io/'>website</a>."
   }
