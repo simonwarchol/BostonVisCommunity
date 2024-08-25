@@ -31,7 +31,7 @@ const Events = () => {
 
   return (
     <section id='events' className='events-section events section-offset'>
-      <h2 className='section__title'>Events</h2>
+      <h2 className='section__title stroke shadow'>Events</h2>
 
       <h2 className='section__subtitle'>Upcoming</h2>
 
