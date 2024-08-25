@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-
+      
       <main>
         <About />
         <Events />
@@ -25,7 +25,7 @@ const App = () => {
       </main>
       <Background />
       <ScrollToTop />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

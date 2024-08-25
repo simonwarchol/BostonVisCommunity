@@ -9,25 +9,24 @@ const About = () => {
   return (
     <section id='about-parent' className='section-offset'>
       <h2 className="title stroke shadow">{name}</h2>
+      <div className='logo-container'>
+        <Logo />
+      </div>
       <div className='about-container container-background about-text'>
-        <div className='about-section'>
-          <p className='about__desc'>
-            {description && description}
-          </p>
+        <p className='about__desc'>
+          {description && description}
+        </p>
 
-          <div className='about__contact center'>
-            {resume && (
-              <a href={resume}>
-                <span type='button' className='btn btn--outline'>
-                  Resume
-                </span>
-              </a>
-            )}
-          </div>
+        <div className='about__contact center'>
+          {resume && (
+            <a href={resume}>
+              <span type='button' className='btn btn--outline'>
+                Resume
+              </span>
+            </a>
+          )}
         </div>
-        <div className='about-section'>
-          <Logo />
-        </div>
+
       </div>
     </section>
   );

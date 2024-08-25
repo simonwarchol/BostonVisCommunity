@@ -67,5 +67,6 @@
   .nav__hamburger {
     display: flex;
     margin-left: 0.8em;
+    z-index: 2;
   }
 }

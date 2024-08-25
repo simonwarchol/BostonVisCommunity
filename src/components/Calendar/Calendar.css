@@ -2,6 +2,6 @@
 #calendar-iframe {
   border: solid 1px #777;
   margin: 1em;
-  width: 90vw;
+  width: 100%;
   height: 600px;
 }
