@@ -7,7 +7,7 @@ const About = () => {
   const { name, description, resume } = about;
 
   return (
-    <section className='about-parent section-offset'>
+    <section id='about-parent' className='section-offset'>
       <h2 className="title stroke shadow">{name}</h2>
       <div className='about-container container-background about-text'>
         <div className='about-section'>
