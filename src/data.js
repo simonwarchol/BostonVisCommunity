@@ -26,7 +26,7 @@ const events = [
     title: "Boston VIS PhD Summer School",
     type: "Archive",
     glyph: "star",
-    date: "13-Aug-2024 & 14-Aug-2024",
+    date: "13-Aug-2024 @ 9:00pm",
     location: "Northeastern, Shillman Hall, Room 320. 115 Forsyth St. Boston, MA 02115",
     description: "Join us for the 2024 Boston VIS Summer School on August 13th and 14th at Shillman Hall., networking opportunities, and student-led tutorials. For communications, use Slack. Contact <a href='mailto:dwootton@mit.edu'>Dylan Wootton</a> for questions. Find the schedule on our <a href='https://vizphdsummerschool.github.io/'>website</a>."
   }
