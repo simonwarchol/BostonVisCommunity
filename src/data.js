@@ -8,7 +8,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Boston VIS Community',
-  description: 'Boston CHI Labs is an emerging alliance of university- and industry-based HCI researchers. The main focus of the Labs is to provide students doing HCI research with a strong peer community and with access to the broad range of HCI expertise available throughout Boston area. Our activities will likely involve social and research events, creating a shared calendar of HCI-related events, and curriculum coordination. Our activities complement those of BostonCHI, which is an organization of HCI professionals from the New England area.'
+  description: 'Boston VIS is an emerging alliance of university- and industry-based Visualization researchers. The main focus of the Labs is to provide students doing VIS research with a strong peer community and with access to the broad range of VIS expertise available throughout Boston area. Our activities will likely involve social and research events, creating a shared calendar of VIS-related events, and curriculum coordination.'
 }
 
 const events = [
