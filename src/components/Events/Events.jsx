@@ -31,9 +31,9 @@ const Events = () => {
 
   return (
     <section id='events' className='events-section events section-offset'>
-      <h2 className='section__title'>Events</h2>
+      <h2 className='section__title stroke shadow'>Events</h2>
 
-      <h2 className='section__title subtitle'>Upcoming</h2>
+      <h2 className='section__subtitle'>Upcoming</h2>
 
       <div className='events__grid'>
         {upcomingEvents.map((event) => (
@@ -42,7 +42,7 @@ const Events = () => {
       </div>
 
 
-      <h2 className='section__title subtitle'>Past</h2>
+      <h2 className='section__subtitle'>Past</h2>
 
       <div className='events__grid'>
         {pastEvents.map((event) => (

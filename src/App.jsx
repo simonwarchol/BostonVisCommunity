@@ -13,21 +13,20 @@ import Participants from './components/Participants/Participants'
 const App = () => {
 
   return (
-    <div className={`light app`}>
+    <>
       <Navbar />
-
-      <main className='content container'>
+      
+      <main>
         <About />
         <Events />
         <Calendar />
         <Participants />
-
         <Contact />
       </main>
       <Background />
       <ScrollToTop />
       <Footer />
-    </div>
+    </>
   )
 }
 

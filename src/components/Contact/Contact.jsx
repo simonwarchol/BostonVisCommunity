@@ -6,7 +6,7 @@ const Contact = () => {
 
   return (
     <section className='section contact center ' id='contact'>
-      <h2 className='section__title'>Contact</h2>
+      <h2 className='section__title stroke shadow'>Contact</h2>
       <p className='contact__desc'>
         If you have any questions or would like to get in touch, please feel free to send me an email.
       </p>

@@ -5,8 +5,8 @@ import './Participants.css'; // Ensure you have the CSS file imported
 
 const Participants = () => {
     return (
-        <section id='participants' className='about-parent section-offset'>
-            <h2 className="title stroke shadow">Participants</h2>
+        <section id='participants' className='section-offset'>
+            <h2 className="section__title stroke shadow">Participants</h2>
             <div className='about-container container-background about-text'>
                 {participants.map(participant => (
                     <div key={uniqid()} className='participant'>
