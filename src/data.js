@@ -37,16 +37,14 @@ const participants = [
     name: 'Visual Computing Group',
     affiliation: 'Harvard University',
     website: 'http://vcg.seas.harvard.edu/',
-  },
-  {
-    name: 'MIT Visualization Group',
-    affiliation: 'Massachusetts Institute of Technology',
-    website: 'http://vis.csail.mit.edu/',
-  },
-  {
+  },{
     name: 'VALT - Visual Analytics Laboratory at Tufts',
     affiliation: 'Tufts University',
     website: 'http://valt.cs.tufts.edu/',
+  }, {
+    name: 'MIT Visualization Group',
+    affiliation: 'Massachusetts Institute of Technology',
+    website: 'http://vis.csail.mit.edu/',
   }, {
     name: 'Khoury Vis Lab',
     affiliation: 'Northeastern University',
@@ -55,7 +53,24 @@ const participants = [
     name: 'VIEW Lab (Visualization and Information Equity) at WPI',
     affiliation: 'Worcester Polytechnic Institute',
     website: 'https://wpivis.github.io/'
-  }
+  }, {
+    name: 'Machine Psychology Research Group',
+    affiliation: 'UMass Boston',
+    website: 'https://mpsych.org'
+  }, {
+    name: 'Data + Feminism Lab',
+    affiliation: 'Massachusetts Institute of Technology',
+    website: 'https://wpivis.github.io/'
+  }, {
+    name: 'Visualization Research Lab',
+    affiliation: 'Brown University',
+    website: 'http://vis.cs.brown.edu/'
+  }, {
+    name: 'Other Participating Universities',
+    affiliation: 'UMass Amherst',
+    website: ''
+  },
+
 ]
 
 
