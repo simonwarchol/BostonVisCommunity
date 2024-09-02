@@ -50,6 +50,10 @@ const participants = [
     affiliation: 'Northeastern University',
     website: 'https://vis.khoury.northeastern.edu/',
   }, {
+    name: 'Insight + Interaction Lab',
+    affiliation: 'Harvard University',
+    website: 'https://insight.seas.harvard.edu/',
+  }, {
     name: 'VIEW Lab (Visualization and Information Equity) at WPI',
     affiliation: 'Worcester Polytechnic Institute',
     website: 'https://wpivis.github.io/'
