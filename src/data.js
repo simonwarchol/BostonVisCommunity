@@ -64,7 +64,7 @@ const participants = [
   }, {
     name: 'Data + Feminism Lab',
     affiliation: 'Massachusetts Institute of Technology',
-    website: 'https://wpivis.github.io/'
+    website: 'https://dataplusfeminism.mit.edu/'
   }, {
     name: 'Visualization Research Lab',
     affiliation: 'Brown University',
