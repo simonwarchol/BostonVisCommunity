@@ -37,7 +37,7 @@ const participants = [
     name: 'Visual Computing Group',
     affiliation: 'Harvard University',
     website: 'http://vcg.seas.harvard.edu/',
-  },{
+  }, {
     name: 'VALT - Visual Analytics Laboratory at Tufts',
     affiliation: 'Tufts University',
     website: 'http://valt.cs.tufts.edu/',
@@ -60,16 +60,51 @@ const participants = [
   }, {
     name: 'Data + Feminism Lab',
     affiliation: 'Massachusetts Institute of Technology',
-    website: 'https://wpivis.github.io/'
+    website: 'https://dataplusfeminism.mit.edu/'
   }, {
     name: 'Visualization Research Lab',
     affiliation: 'Brown University',
     website: 'http://vis.cs.brown.edu/'
-  }, {
-    name: 'Other Participating Universities',
-    affiliation: 'UMass Amherst',
-    website: ''
   },
+
+  {
+    name: 'Insight + Interaction Lab',
+    affiliation: 'Harvard University',
+    website: 'https://insight.seas.harvard.edu/'
+  },
+  {
+    name: 'Northeastern University Visualization Consortium (NUVis)',
+    affiliation: 'Northeastern University',
+    website: 'https://nuvis.northeastern.edu/'
+  },
+  {
+    name: 'HCI-VIS Lab',
+    affiliation: 'University of Massachusetts Amherst ',
+    website: 'https://groups.cs.umass.edu/hci-vis/'
+  },
+  // {
+  //   name: '',
+  //   affiliation: 'Northeastern University',
+  //   website: 'https://nuvis.northeastern.edu/'
+  // },
+  // NamWook Kim (Boston College) https://www.namwkim.org/
+  // Sarah Williams
+  // Jonathan Zong
+  // Harini Suresh
+  // Pedro Cruz
+  // Laura Perovich
+  // Carmen Hull
+  // Dylan Cashman
+  // Michael Correll
+  // Clifton Forlines
+  // Mahsan Nourani
+  // Nezar Abdennur
+
+  // {
+  //     name: 'Other Participating Universities',
+  //     affiliation: 'UMass Amherst',
+  //     website: ''
+  //   },
 
 ]
 
