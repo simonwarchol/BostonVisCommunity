@@ -18,7 +18,7 @@ const events = [
     type: "Archive",
     glyph: "star",
     date: "26-Sep-2024 @ 6:00pm",
-    location: "TBD",
+    location: "Bow Market, Somerville",
     description: "After CHI deadline celebration! The CHI deadline is coming. After hitting the submit button for one last time, join us for our annual post-CHI deadline drinks! Come chilling with other CHI survivors (or cheerful observers) and enjoying your well-deserved drinks."
   },
 
