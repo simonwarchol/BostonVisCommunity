@@ -15,7 +15,7 @@ const events = [
 
   {
     title: "Post-CHI Deadline Drinks",
-    type: "Upcoming",
+    type: "Archive",
     glyph: "star",
     date: "26-Sep-2024 @ 6:00pm",
     location: "TBD",
@@ -83,8 +83,13 @@ const participants = [
   },
   {
     name: 'HCI-VIS Lab',
-    affiliation: 'University of Massachusetts Amherst ',
+    affiliation: 'University of Massachusetts Amherst',
     website: 'https://groups.cs.umass.edu/hci-vis/'
+  },
+  {
+    name: 'HIDIVE Lab',
+    affiliation: 'Harvard Medical School',
+    website: 'https://hidivelab.org/'
   },
   // {
   //   name: '',
