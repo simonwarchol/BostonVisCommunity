@@ -14,7 +14,8 @@ import Participants from './components/Participants/Participants'
 import Vis from './components/Vis/Vis'
 import Description from './components/Description/Description'
 
-const Redirect = ({url}) => {
+const Redirect = ({ url }) => {
+
   window.location.href = url;
   return null;
 };
@@ -42,8 +43,8 @@ const App = () => {
               <Footer />
             </>
           )} />
-          <Route path='/slack' element={<Redirect url={'https://join.slack.com/t/boston-vis/shared_invite/zt-2s4vkbvg5-OCFX~flb61l_6YevGkTNNA'}  />} />
-          <Route path='/rsvp' element={<Redirect url={'https://forms.gle/BGPeSUtmgoHgha2c9'}  />} />
+          <Route path='/slack' element={<Redirect url={'https://join.slack.com/t/boston-vis/shared_invite/zt-2s4vkbvg5-OCFX~flb61l_6YevGkTNNA'} />} />
+          <Route path='/rsvp' element={<Redirect url={'https://forms.gle/BGPeSUtmgoHgha2c9'} />} />
         </Routes>
       </Router>
     </>
