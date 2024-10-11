@@ -14,7 +14,7 @@ const about = {
 const events = [
 
   {
-    title: "IEEE Mini-Vis Boston",
+    title: "Mini-Vis Boston",
     type: "Archive",
     glyph: "star",
     date: "Oct 13-18, 2024",
