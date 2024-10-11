@@ -13,14 +13,13 @@ const Vis = () => {
       {/* Banner above the PDF viewer */}
       <div className="banner">
         <div className="banner-content">
-          <span className="banner-date">Oct 13-18, 2024</span>
-          <span className="banner-text">IEEE Mini-Vis Boston</span>
+          <span className="banner-date vis__section__title">Oct 13-18, 2024</span>
+          <span className="banner-text vis__section__title">IEEE Mini-Vis Boston</span>
         </div>
         <div className="rsvp-content">
           {/* RSVP :https://join.slack.com/t/boston-vis/shared_invite/zt-2s4vkbvg5-OCFX~flb61l_6YevGkTNNA */}
-          <span><a href="https://forms.gle/BGPeSUtmgoHgha2c9" target="_blank" rel="noreferrer">RSVP</a></span>
-          <span><a href="https://join.slack.com/t/boston-vis/shared_invite/zt-2s4vkbvg5-OCFX~flb61l_6YevGkTNNA" target="_blank" rel="noreferrer">Slack</a></span>
-          <span><a href={pdfUrl} target="_blank" rel="noreferrer">Agenda</a></span>
+          <span className="vis__section__subtitle"><a href="https://forms.gle/BGPeSUtmgoHgha2c9" target="_blank" rel="noreferrer">RSVP</a></span>
+          <span className="vis__section__subtitle"><a href="https://join.slack.com/t/boston-vis/shared_invite/zt-2s4vkbvg5-OCFX~flb61l_6YevGkTNNA" target="_blank" rel="noreferrer">Slack</a></span>
         </div>
       </div>
 
@@ -33,6 +32,7 @@ const Vis = () => {
           title="PDF Viewer"
         ></iframe>
       </div>
+
     </div>
   );
 };
