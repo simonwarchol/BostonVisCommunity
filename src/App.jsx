@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import About from './components/About/About'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Events from './components/Events/Events'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
@@ -15,13 +15,11 @@ import Vis from './components/Vis/Vis'
 import Description from './components/Description/Description'
 
 const Redirect = ({ url }) => {
-
   window.location.href = url;
   return null;
 };
 
 const App = () => {
-
   return (
     <>
       <Router>
