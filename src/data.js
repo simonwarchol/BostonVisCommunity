@@ -14,6 +14,13 @@ const about = {
 const events = [
 
   {
+    title: "IEEE Mini-Vis Boston",
+    type: "Archive",
+    glyph: "star",
+    date: "Oct 13-18, 2024",
+    location: "MIT, Harvard, Tufts, Northeastern, IBM",
+    description: "Join Us for the Boston VIS Mini-Conference! We’re bringing the sunshine to Boston! With the main VIS event moving online, we’re thrilled to announce an in-person mini VIS right here in Boston, bringing together the local visualization community for a series of exciting watch parties, discussions, and networking events. <br/><b> <a href='https://forms.gle/BGPeSUtmgoHgha2c9'>RSVP HERE BY SATURDAY, OCTOBER 12TH</b></a>. See agenda above.",
+  }, {
     title: "Post-CHI Deadline Drinks",
     type: "Archive",
     glyph: "star",
@@ -50,10 +57,6 @@ const participants = [
     affiliation: 'Northeastern University',
     website: 'https://vis.khoury.northeastern.edu/',
   }, {
-    name: 'Insight + Interaction Lab',
-    affiliation: 'Harvard University',
-    website: 'https://insight.seas.harvard.edu/',
-  }, {
     name: 'VIEW Lab (Visualization and Information Equity) at WPI',
     affiliation: 'Worcester Polytechnic Institute',
     website: 'https://wpivis.github.io/'
@@ -70,7 +73,6 @@ const participants = [
     affiliation: 'Brown University',
     website: 'http://vis.cs.brown.edu/'
   },
-
   {
     name: 'Insight + Interaction Lab',
     affiliation: 'Harvard University',
