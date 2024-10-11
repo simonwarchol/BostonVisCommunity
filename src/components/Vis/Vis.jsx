@@ -14,7 +14,7 @@ const Vis = () => {
       <div className="banner">
         <div className="banner-content">
           <span className="banner-date vis__section__title">Oct 13-18, 2024</span>
-          <span className="banner-text vis__section__title">IEEE Mini-Vis Boston</span>
+          <span className="banner-text vis__section__title">Mini-Vis Boston</span>
         </div>
         <div className="rsvp-content">
           {/* RSVP :https://join.slack.com/t/boston-vis/shared_invite/zt-2s4vkbvg5-OCFX~flb61l_6YevGkTNNA */}
