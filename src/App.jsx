@@ -9,15 +9,20 @@ import Navbar from './components/Navbar/Navbar'
 import Background from './components/Background/Background'
 import Calendar from './components/Calendar/Calendar'
 import Participants from './components/Participants/Participants'
+import Vis from './components/Vis/Vis'
+import Description from './components/Description/Description'
 
 const App = () => {
 
   return (
     <>
       <Navbar />
-      
+
       <main>
         <About />
+        <Vis />
+        <
+          Description/>
         <Events />
         <Calendar />
         <Participants />

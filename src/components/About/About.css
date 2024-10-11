@@ -34,7 +34,7 @@
 }
 .logo-container{
   width: 100%;
-  height: 300px;
+  height: 8rem;
   padding: 0.5em 0;
 }
 
@@ -45,13 +45,14 @@
 .about__desc {
   font-size: 1.0rem;
   text-align: justify;
-  padding: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
   /* Increase font size for better readability */
   width: 100%;
   /* Ensure it takes full width of its container */
 }
 
-.about__desc,
+
 .about__contact {
   margin-top: 0.4em;
 }
@@ -65,3 +66,27 @@
 }
 
 
+.title-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em; /* Adjust the gap as needed */
+}
+
+.title {
+  margin: 0;
+  flex: 3; /* 75% of the space */
+  line-height: 1.5; /* 1.5x line height */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex: 1; /* 25% of the space */
+}
+
+@media (max-width: 600px) {
+  .title-logo-container {
+    flex-direction: column;
+  }
+}
