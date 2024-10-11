@@ -10,15 +10,14 @@
   width: 100%;
   max-width: 800px;
   /* You can adjust this max-width to fit your design */
-  height: 0;
-  padding-bottom: 75%;
   /* This maintains a 4:3 aspect ratio, adjust this as needed */
   border: 2px solid #303030;
- border-radius: 0.5rem;
- z-index: 100;
+  height: 800px;
+  border-radius: 0.5rem;
+  z-index: 100;
 }
 
-.rsvp-content{
+.rsvp-content {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -26,12 +25,13 @@
   padding: 0;
   margin: 1rem 0 0 0;
 }
-.rsvp-content *{
+
+.rsvp-content * {
   margin: 0 1rem;
   padding: 0;
   font-size: 2rem;
   font-weight: bold;
-  color:white;
+  color: white;
 
 }
 
@@ -40,9 +40,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   border: none;
+  height: 100%;
+
 }
+
 .vis-container {
   width: 100%;
   display: flex;
@@ -53,14 +55,16 @@
 
 
 .banner {
-  background-color: #4cc3ff; /* Bright red to make it stand out */
+  background-color: #4cc3ff;
+  /* Bright red to make it stand out */
   color: white;
   padding: 0;
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
   box-sizing: border-box;
-  border: 2px solid #303030; /* Thin grey border */
+  border: 2px solid #303030;
+  /* Thin grey border */
 
   /* Rounded */
   border-radius: 0.5rem;

@@ -1,7 +1,5 @@
 import { useContext } from 'react'
 import About from './components/About/About'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-
 import Events from './components/Events/Events'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
@@ -15,36 +13,28 @@ import Vis from './components/Vis/Vis'
 import Description from './components/Description/Description'
 
 const Redirect = ({ url }) => {
+
   window.location.href = url;
   return null;
 };
 
 const App = () => {
+
   return (
     <>
-      <Router>
-        <Routes>
-          <Route path="/" element={(
-            <>
-              <Navbar />
-              <main>
-                <About />
-                <Vis />
-                <Description />
-                <Events />
-                <Calendar />
-                <Participants />
-                <Contact />
-              </main>
-              <Background />
-              <ScrollToTop />
-              <Footer />
-            </>
-          )} />
-          <Route path='/slack' element={<Redirect url={'https://join.slack.com/t/boston-vis/shared_invite/zt-2s4vkbvg5-OCFX~flb61l_6YevGkTNNA'} />} />
-          <Route path='/rsvp' element={<Redirect url={'https://forms.gle/BGPeSUtmgoHgha2c9'} />} />
-        </Routes>
-      </Router>
+      <Navbar />
+      <main>
+        <About />
+        <Vis />
+        <Description />
+        <Events />
+        <Calendar />
+        <Participants />
+        <Contact />
+      </main>
+      <Background />
+      <ScrollToTop />
+      <Footer />
     </>
   )
 }
