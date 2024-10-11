@@ -5,9 +5,13 @@
   bottom: 0;
   width: 100%;
   z-index: 100;
-  background: #FEF3C7;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* Slightly transparent background */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  /* Add shadow for better visibility */
+
   padding: 0.2em;
-  border-top: 1px solid #303030;
+  /* border-top: 1px solid #303030; */
 }
 
 .footer__link {
