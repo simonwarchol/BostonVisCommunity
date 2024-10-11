@@ -12,7 +12,7 @@
   /* You can adjust this max-width to fit your design */
   /* This maintains a 4:3 aspect ratio, adjust this as needed */
   border: 2px solid #303030;
-  height: 50vh;
+  height: 75vh;
   border-radius: 0.5rem;
   z-index: 100;
 }
