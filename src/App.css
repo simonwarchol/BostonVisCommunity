@@ -20,8 +20,8 @@
   text-align: center;
   font-size: 4rem;
 
-  color: #fef3c7;
-  text-shadow: -1.5px 0 #111827, 0 -1.5px #111827, 1.5px 0 #111827, 0 1.5px #111827, 1.5px 1.5px #111827, -1.5px -1.5px #111827, -1.5px 1.5px #111827, 1.5px -1.5px #111827, 6px 6px #000;
+  color: #fef3c7 !important;
+  text-shadow: -1.5px 0 #111827, 0 -1.5px #111827, 1.5px 0 #111827, 0 1.5px #111827, 1.5px 1.5px #111827, -1.5px -1.5px #111827, -1.5px 1.5px #111827, 1.5px -1.5px #111827, 5px 5px #000;
 }
 
 .vis__section__title {
@@ -32,7 +32,7 @@
   font-size: 2.5rem;
 
   color: #fef3c7;
-  text-shadow: -1.5px 0 #111827, 0 -1.5px #111827, 1.5px 0 #111827, 0 1.5px #111827, 1.5px 1.5px #111827, -1.5px -1.5px #111827, -1.5px 1.5px #111827, 1.5px -1.5px #111827, 6px 6px #000;
+  text-shadow: -1.5px 0 #111827, 0 -1.5px #111827, 1.5px 0 #111827, 0 1.5px #111827, 1.5px 1.5px #111827, -1.5px -1.5px #111827, -1.5px 1.5px #111827, 1.5px -1.5px #111827, 4px 4px #000;
 }
 
 .vis__section__subtitle {
@@ -41,7 +41,7 @@
   text-align: center;
   font-size: 2.5rem;
   color: #fef3c7;
-  text-shadow: -1px 0 #111827, 0 -1px #111827, 1px 0 #111827, 0 1px #111827, 1px 1px #111827, -1px -1px #111827, -1px 1px #111827, 1px -1px #111827, 6px 6px #db2777;
+  text-shadow: -1px 0 #111827, 0 -1px #111827, 1px 0 #111827, 0 1px #111827, 1px 1px #111827, -1px -1px #111827, -1px 1px #111827, 1px -1px #111827, 3px 3px #db2777;
 }
 
 .section__subtitle {
@@ -50,7 +50,7 @@
   text-align: center;
   font-size: 2.5rem;
   color: #fef3c7;
-  text-shadow: -2px 0 #111827, 0 -2px #111827, 2px 0 #111827, 0 2px #111827, 2px 2px #111827, -2px -2px #111827, -2px 2px #111827, 2px -2px #111827, 6px 6px #db2777;
+  text-shadow: -2px 0 #111827, 0 -2px #111827, 2px 0 #111827, 0 2px #111827, 2px 2px #111827, -2px -2px #111827, -2px 2px #111827, 2px -2px #111827, 4px 4px #db2777;
 }
 
 .section {
