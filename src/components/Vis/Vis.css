@@ -1,7 +1,62 @@
 .vis-container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #AEDEFC;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  box-sizing: border-box;
+  border: 2px solid #303030;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  max-width: 1200px
+}
+
+.banner-content {
+  width: 100%;
+  display: flex;
+  margin: 0 1rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner-date,
+.banner-text {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.banner-logo {
+  height: 150px;
+  width: auto;
+  margin: 0 1rem;
+}
+
+.rsvp-links {
+  display: flex;
+  margin: 0 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.rsvp-text a {
+  margin: 0.5rem 0;
+  padding: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fef3c7;
 }
 
 .pdf-viewer {
@@ -9,21 +64,9 @@
   position: relative;
   width: 100%;
   max-width: 800px;
-  /* You can adjust this max-width to fit your design */
-  /* This maintains a 4:3 aspect ratio, adjust this as needed */
   border: 2px solid #303030;
   height: 75vh;
   border-radius: 0.5rem;
-  z-index: 100;
-}
-
-.rsvp-content * {
-  margin: 1rem;
-  padding: 0;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #fef3c7;
-
 }
 
 .responsive-iframe {
@@ -33,49 +76,26 @@
   width: 100%;
   border: none;
   height: 100%;
-
 }
 
-.vis-container {
-  width: 100%;
+
+
+.banner-text-content {
+  flex: 2;
   display: flex;
+  margin: 0 1rem;
   flex-direction: column;
   align-items: center;
 }
 
-.banner-content,
-.rsvp-content {
+.banner-logo-parent {
+  flex: 1;
   display: flex;
-  flex-direction: row;
+  margin: 0 1rem;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 0;
-  margin: 1rem 0 0 0;
-  max-width: 100%;
 }
 
-
-.banner {
-  display: inline-block;
-  background-color: #4cc3ff;
-  color: white;
-  padding: 0.5rem 1rem;
-  text-align: center;
-  font-weight: bold;
-  font-size: 2rem;
-  box-sizing: border-box;
-  border: 2px solid #303030;
-  border-radius: 0.5rem;
-  margin: 1rem 0;
-  max-width: 100%;
-}
-
-.banner-date {
-  margin: 0 20px;
-  font-weight: bold;
-}
-
-.banner-text {
-  font-weight: normal;
-  margin: 0 20px;
+.text-child {
+  flex: 1;
 }
