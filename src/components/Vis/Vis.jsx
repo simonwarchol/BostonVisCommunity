@@ -19,7 +19,6 @@ const Vis = () => {
               <span className="banner-date vis__section__title">Oct 13-18, 2024</span>
             </div>
             <div className='text-child'>
-
               <span className="banner-text vis__section__title">Mini-Vis Boston</span>
             </div>
             <div className='text-child'>
